@@ -16,7 +16,7 @@
         @csrf
         <input name="name" placeholder="Nombre..." value="Brais" ><br>
         <input type="email" name="email" placeholder="Email..." value="brais@gmail.com"><br>
-        <input name="subject" placeholder="Asunto..."value="Asunto 1"><br>
+        <input name="subject" placeholder="Asunto..." value="Asunto 1"><br>
         <textarea name="content" placeholder="Mensaje...">Contenido del mensaje del textarea, contenido del mensaje del textarea, contenido del mensaje del textarea, contenido del mensaje del textarea.</textarea><br>
         <button>Enviar</button>
     </form>

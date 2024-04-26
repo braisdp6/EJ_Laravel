@@ -38,7 +38,8 @@ class MessageController extends Controller
             'name.required'=> __('I need your name'), // función de ayuda para traducción de cadenas
         ]);
 
-        return $request->get('name');
+        // note: enviar el email
+        return $request;
     }
 
     /**

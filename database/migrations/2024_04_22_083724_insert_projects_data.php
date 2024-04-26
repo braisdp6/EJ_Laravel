@@ -14,19 +14,19 @@ return new class extends Migration
 
         DB::table("projects")->insert([
             [
-                'title' => 'Portfolio: Jorge el curioso',
+                'title' => 'Project: Jorge el curioso',
                 'description' => 'Excepteur enim reprehenderit minim nisi esse cillum..',
             ],
             [
-                'title' => 'Portfolio: La manzana verde',
+                'title' => 'Project: La manzana verde',
                 'description' => 'Consectetur et cillum nisi culpa ut deserunt cillum aliquip eu aliquip dolore quis ut dolor..',
             ],
             [
-                'title' => 'Portfolio: Pelicano, una aventura',
+                'title' => 'Project: Pelicano, una aventura',
                 'description' => 'Do duis excepteur elit do magna sint in ex. Id exercitation esse occaecat dolor. Ullamco esse est non non excepteur irure ad commodo anim veniam ipsum veniam..',
             ],
             [
-                'title' => 'Portfolio: La verdad de la buena',
+                'title' => 'Project: La verdad de la buena',
                 'description' => 'Cillum incididunt duis esse nostrud non quis.',
             ],
             ]);

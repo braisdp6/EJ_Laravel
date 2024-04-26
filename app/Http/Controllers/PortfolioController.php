@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Portfolio;
+use App\Models\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -13,7 +13,10 @@ class PortfolioController extends Controller
      */
     public function index()
     {
-        return view('portfolio', ['projects' => \App\Models\Portfolio::orderBy('title', 'DESC')->paginate(15)]);
+        $projects = Project::orderBy('title')->get();
+        return view('portfolio', compact('projects'));
+
+//        return view('portfolio', ['portfolio' => \App\Models\Project::orderBy('title', 'DESC')->paginate(15)]);
     }
 
 
